@@ -1,0 +1,68 @@
+.box {
+    width: 25%;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 35%;
+    top: 25%;
+    text-align: center;
+    border-style: hidden;
+    background-color: rgb(176, 211, 228);
+    box-shadow: 0 0 25px rgb(128, 116, 116);
+}
+
+
+.inputdata {
+    height: 25%;
+    text-align: center;
+}
+
+.input {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border-radius: 25px;
+    border-style: hidden;
+    height: 30px;
+    width: 45%;
+}
+
+
+.info {
+    height: 75%;   
+}
+.location {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.temp {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+.range {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+}
+
+
+
+.para {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+@media screen and (max-width:385px) {
+    .range {
+        position: absolute;
+        left: 10%;
+    }
+    .box {
+        width: 100%;
+    }
+}
+
+
